@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2023.09.29 更新
+2023.09.30 更新
 
 ## 列表
 ```js
@@ -44,6 +44,9 @@ name: '偏爱', url: 'https://github.com/lihan3238/music/raw/main/musics/偏爱-
 name: '兰亭序', url: 'https://github.com/lihan3238/music/raw/main/musics/兰亭序-周杰伦.flac', artist: '周杰伦', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
+name: '再见', url: 'https://github.com/lihan3238/music/raw/main/musics/再见-张震岳.mp3', artist: '张震岳', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
 name: '初恋情人', url: 'https://github.com/lihan3238/music/raw/main/musics/初恋情人-刘小慧.mp3', artist: '刘小慧', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
@@ -62,6 +65,9 @@ name: '南屏晚钟', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 name: '只要平凡', url: 'https://github.com/lihan3238/music/raw/main/musics/只要平凡-张杰.mp3', artist: '张杰', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
+name: '吉他初恋', url: 'https://github.com/lihan3238/music/raw/main/musics/吉他初恋-刘大壮.mp3', artist: '刘大壮', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
 name: '同桌的你', url: 'https://github.com/lihan3238/music/raw/main/musics/同桌的你-老狼.mp3', artist: '老狼', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
@@ -74,7 +80,13 @@ name: '处处吻', url: 'https://github.com/lihan3238/music/raw/main/musics/处�
 name: '夜的第七章', url: 'https://github.com/lihan3238/music/raw/main/musics/夜的第七章-周杰伦.mp3', artist: '周杰伦', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
+name: '失恋', url: 'https://github.com/lihan3238/music/raw/main/musics/失恋-草蜢.mp3', artist: '草蜢', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
 name: '富士山下', url: 'https://github.com/lihan3238/music/raw/main/musics/富士山下-陈奕迅.m4a', artist: '陈奕迅', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
+name: '忘记时间', url: 'https://github.com/lihan3238/music/raw/main/musics/忘记时间-胡歌.mp3', artist: '胡歌', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
 name: '恋爱循环', url: 'https://github.com/lihan3238/music/raw/main/musics/恋爱循环-花泽香菜.m4a', artist: '花泽香菜', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
