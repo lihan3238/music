@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2023.09.30 更新
+2023.10.11 更新
 
 ## 列表
 ```js
@@ -45,9 +45,6 @@ name: '兰亭序', url: 'https://github.com/lihan3238/music/raw/main/musics/兰�
 },
 {
 name: '再见', url: 'https://github.com/lihan3238/music/raw/main/musics/再见-张震岳.mp3', artist: '张震岳', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
-},
-{
-name: '初恋情人', url: 'https://github.com/lihan3238/music/raw/main/musics/初恋情人-刘小慧.mp3', artist: '刘小慧', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
 name: '千千阙歌', url: 'https://github.com/lihan3238/music/raw/main/musics/千千阙歌-张国荣.m4a', artist: '张国荣', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
@@ -129,6 +126,9 @@ name: '红日', url: 'https://github.com/lihan3238/music/raw/main/musics/红日-
 },
 {
 name: '讲不出再见', url: 'https://github.com/lihan3238/music/raw/main/musics/讲不出再见-谭咏麟.mp3', artist: '谭咏麟', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
+name: '诉衷肠', url: 'https://github.com/lihan3238/music/raw/main/musics/诉衷肠-多亮.mp3', artist: '多亮', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 
 ```
