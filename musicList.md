@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2023.10.11 更新
+2023.10.13 更新
 
 ## 列表
 ```js
@@ -27,6 +27,9 @@ name: 'SayHello', url: 'https://github.com/lihan3238/music/raw/main/musics/SayHe
 },
 {
 name: 'Sugar', url: 'https://github.com/lihan3238/music/raw/main/musics/Sugar-Maroon5.mp3', artist: 'Maroon5', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
+name: 'TheEndOfTheWorld', url: 'https://github.com/lihan3238/music/raw/main/musics/TheEndOfTheWorld-SkeeterDavis.mp3', artist: 'SkeeterDavis', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
 name: '万水千山总是情', url: 'https://github.com/lihan3238/music/raw/main/musics/万水千山总是情-群星.mp3', artist: '群星', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
