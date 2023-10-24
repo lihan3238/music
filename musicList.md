@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2023.10.13 更新
+2023.10.24 更新
 
 ## 列表
 ```js
@@ -21,6 +21,9 @@ name: 'monica', url: 'https://github.com/lihan3238/music/raw/main/musics/monica-
 },
 {
 name: 'PhantomLimb', url: 'https://github.com/lihan3238/music/raw/main/musics/PhantomLimb-YellowMellow.m4a', artist: 'YellowMellow', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
+name: 'SatTeeTouy', url: 'https://github.com/lihan3238/music/raw/main/musics/SatTeeTouy.mp4', artist: '', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
 name: 'SayHello', url: 'https://github.com/lihan3238/music/raw/main/musics/SayHello-RosieThomas-SufjanStevens.mp3', artist: 'RosieThomas-SufjanStevens', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
