@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2023.10.24 更新
+2023.10.27 更新
 
 ## 列表
 ```js
@@ -27,6 +27,9 @@ name: 'SatTeeTouy', url: 'https://github.com/lihan3238/music/raw/main/musics/Sat
 },
 {
 name: 'SayHello', url: 'https://github.com/lihan3238/music/raw/main/musics/SayHello-RosieThomas-SufjanStevens.mp3', artist: 'RosieThomas-SufjanStevens', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
+name: 'SeeTinh', url: 'https://github.com/lihan3238/music/raw/main/musics/SeeTinh-HoàngThùyLinh.mp3', artist: 'HoàngThùyLinh', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
 name: 'Sugar', url: 'https://github.com/lihan3238/music/raw/main/musics/Sugar-Maroon5.mp3', artist: 'Maroon5', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
