@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2023.10.27 更新
+2023.11.05 更新
 
 ## 列表
 ```js
@@ -36,6 +36,9 @@ name: 'Sugar', url: 'https://github.com/lihan3238/music/raw/main/musics/Sugar-Ma
 },
 {
 name: 'TheEndOfTheWorld', url: 'https://github.com/lihan3238/music/raw/main/musics/TheEndOfTheWorld-SkeeterDavis.mp3', artist: 'SkeeterDavis', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
+name: '一笑江湖 (DJ弹鼓版)', url: 'https://github.com/lihan3238/music/raw/main/musics/一笑江湖 (DJ弹鼓版)-闻人听書_.mp3', artist: '闻人听書_', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
 name: '万水千山总是情', url: 'https://github.com/lihan3238/music/raw/main/musics/万水千山总是情-群星.mp3', artist: '群星', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
@@ -125,6 +128,9 @@ name: '漠北舞厅', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 name: '漫步人生路', url: 'https://github.com/lihan3238/music/raw/main/musics/漫步人生路-邓丽君.mp3', artist: '邓丽君', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
+name: '爱人错过', url: 'https://github.com/lihan3238/music/raw/main/musics/爱人错过-告五人.mp3', artist: '告五人', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
 name: '爱你', url: 'https://github.com/lihan3238/music/raw/main/musics/爱你-王心凌.mp3', artist: '王心凌', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
@@ -132,6 +138,9 @@ name: '破茧', url: 'https://github.com/lihan3238/music/raw/main/musics/破茧-
 },
 {
 name: '秒针', url: 'https://github.com/lihan3238/music/raw/main/musics/秒针-阿梨粤.mp3', artist: '阿梨粤', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
+name: '素颜', url: 'https://github.com/lihan3238/music/raw/main/musics/素颜-许嵩,何曼婷.mp3', artist: '许嵩,何曼婷', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
 name: '红日', url: 'https://github.com/lihan3238/music/raw/main/musics/红日-李克勤.mp3', artist: '李克勤', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
