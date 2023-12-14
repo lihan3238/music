@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2023.12.09 更新
+2023.12.14 更新
 
 ## 列表
 ```js
@@ -12,6 +12,9 @@ name: 'Escape(ThePinaColadaSong)', url: 'https://github.com/lihan3238/music/raw/
 },
 {
 name: 'freeLoop', url: 'https://github.com/lihan3238/music/raw/main/musics/freeLoop-DanielPowter.mp3', artist: 'DanielPowter', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
+name: 'Happy', url: 'https://github.com/lihan3238/music/raw/main/musics/Happy-PharrellWilliams.mp3', artist: 'PharrellWilliams', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
 name: 'ITookAPillInlbiza(SeeBRemix)', url: 'https://github.com/lihan3238/music/raw/main/musics/ITookAPillInlbiza(SeeBRemix)-MikePosner,SeeB.mp3', artist: 'MikePosner,SeeB', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
