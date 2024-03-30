@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2023.12.14 更新
+2024.03.30 更新
 
 ## 列表
 ```js
@@ -123,6 +123,9 @@ name: '月半小夜曲', url: 'https://github.com/lihan3238/music/raw/main/music
 },
 {
 name: '歌唱社会主义祖国', url: 'https://github.com/lihan3238/music/raw/main/musics/歌唱社会主义祖国-any.mp3', artist: 'any', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
+name: '沉默是金', url: 'https://github.com/lihan3238/music/raw/main/musics/沉默是金-张国荣.lrc', artist: '张国荣', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
 name: '海阔天空', url: 'https://github.com/lihan3238/music/raw/main/musics/海阔天空-beyond.mp3', artist: 'beyond', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
