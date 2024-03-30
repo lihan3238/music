@@ -10,7 +10,7 @@ bak_path = "./Baks/"  # 请将路径替换为实际的目录路径
 
 # 构建URL的基本部分
 base_url = "https://github.com/lihan3238/music/raw/main/musics/"  # 请将路径替换为实际的目录路径
-
+base_lrc_url = "https://raw.githubusercontent.com/lihan3238/music/main/musics/"  # 请将路径替换为实际的目录路径
 # 获取目录中的所有文件名
 file_names = [
     file
@@ -31,7 +31,7 @@ for file_name in file_names:
     lrc_file_name = os.path.splitext(file_name)[0] + ".lrc"
 
     # 如果存在对应的.lrc文件，则构建lrc_url
-    lrc_url = base_url + lrc_file_name if lrc_file_name in file_names else ""
+    lrc_url = base_lrc_url + lrc_file_name if lrc_file_name in file_names else ""
 
     # 提取文件名和后缀名
     name, extension = os.path.splitext(file_name)

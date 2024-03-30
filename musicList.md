@@ -125,7 +125,7 @@ name: '月半小夜曲', url: 'https://github.com/lihan3238/music/raw/main/music
 name: '歌唱社会主义祖国', url: 'https://github.com/lihan3238/music/raw/main/musics/歌唱社会主义祖国-any.mp3', artist: 'any', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 }},
 {
-name: '沉默是金', url: 'https://github.com/lihan3238/music/raw/main/musics/沉默是金-张国荣.mp3', artist: '张国荣', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://github.com/lihan3238/music/raw/main/musics/沉默是金-张国荣.lrc'
+name: '沉默是金', url: 'https://github.com/lihan3238/music/raw/main/musics/沉默是金-张国荣.mp3', artist: '张国荣', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/沉默是金-张国荣.lrc'
 }},
 {
 name: '海阔天空', url: 'https://github.com/lihan3238/music/raw/main/musics/海阔天空-beyond.mp3', artist: 'beyond', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
