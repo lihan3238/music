@@ -56,7 +56,7 @@ for file_name in file_names:
     if lrc_url:
         file_content += f", lrc: '{lrc_url}'"
 
-    file_content += "\n}},\n"
+    file_content += "\n},\n"
 
 # 读取musicList.md文件内容
 with open("musicList.md", "r", encoding="utf-8") as musicList_file:
