@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2024.06.10 更新
+2024.07.15 更新
 
 ## 列表
 ```js
@@ -74,6 +74,9 @@ name: '千千阙歌', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 name: '千层套路', url: 'https://github.com/lihan3238/music/raw/main/musics/千层套路-中村千寻.mp3', artist: '中村千寻', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/千层套路-中村千寻.lrc'
 },
 {
+name: '半点心', url: 'https://github.com/lihan3238/music/raw/main/musics/半点心-草蜢.mp3', artist: '草蜢', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/半点心-草蜢.lrc'
+},
+{
 name: '单车', url: 'https://github.com/lihan3238/music/raw/main/musics/单车-陈奕迅.mp3', artist: '陈奕迅', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/单车-陈奕迅.lrc'
 },
 {
@@ -125,6 +128,9 @@ name: '敢爱敢做', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 name: '晚风心里吹', url: 'https://github.com/lihan3238/music/raw/main/musics/晚风心里吹-李克勤.mp3', artist: '李克勤', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/晚风心里吹-李克勤.lrc'
 },
 {
+name: '最爱', url: 'https://github.com/lihan3238/music/raw/main/musics/最爱-周慧敏.mp3', artist: '周慧敏', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/最爱-周慧敏.lrc'
+},
+{
 name: '月半小夜曲', url: 'https://github.com/lihan3238/music/raw/main/musics/月半小夜曲-名知玲美.mp3', artist: '名知玲美', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/月半小夜曲-名知玲美.lrc'
 },
 {
@@ -134,10 +140,16 @@ name: '月半小夜曲', url: 'https://github.com/lihan3238/music/raw/main/music
 name: '歌唱社会主义祖国', url: 'https://github.com/lihan3238/music/raw/main/musics/歌唱社会主义祖国-any.mp3', artist: 'any', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/歌唱社会主义祖国-any.lrc'
 },
 {
+name: '每段路', url: 'https://github.com/lihan3238/music/raw/main/musics/每段路-吕方.mp3', artist: '吕方', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/每段路-吕方.lrc'
+},
+{
 name: '沉默是金', url: 'https://github.com/lihan3238/music/raw/main/musics/沉默是金-张国荣.mp3', artist: '张国荣', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/沉默是金-张国荣.lrc'
 },
 {
 name: '海阔天空', url: 'https://github.com/lihan3238/music/raw/main/musics/海阔天空-Beyond.mp3', artist: 'Beyond', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/海阔天空-Beyond.lrc'
+},
+{
+name: '满分情人', url: 'https://github.com/lihan3238/music/raw/main/musics/满分情人-刘小慧.mp3', artist: '刘小慧', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/满分情人-刘小慧.lrc'
 },
 {
 name: '漠河舞厅', url: 'https://github.com/lihan3238/music/raw/main/musics/漠河舞厅-柳爽.mp3', artist: '柳爽', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/漠河舞厅-柳爽.lrc'
@@ -168,6 +180,9 @@ name: '讲不出再见', url: 'https://github.com/lihan3238/music/raw/main/music
 },
 {
 name: '诉衷肠', url: 'https://github.com/lihan3238/music/raw/main/musics/诉衷肠-多亮.mp3', artist: '多亮', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+},
+{
+name: '跳舞街', url: 'https://github.com/lihan3238/music/raw/main/musics/跳舞街-陈慧娴.mp3', artist: '陈慧娴', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/跳舞街-陈慧娴.lrc'
 },
 
 ```
