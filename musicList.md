@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2024.11.12 更新
+2024.12.21 更新
 
 ## 列表
 ```js
@@ -177,6 +177,9 @@ name: '素颜', url: 'https://github.com/lihan3238/music/raw/main/musics/素颜-
 },
 {
 name: '红日', url: 'https://github.com/lihan3238/music/raw/main/musics/红日-李克勤.mp3', artist: '李克勤', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/红日-李克勤.lrc'
+},
+{
+name: '让一切随风', url: 'https://github.com/lihan3238/music/raw/main/musics/让一切随风-钟镇涛.mp3', artist: '钟镇涛', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/让一切随风-钟镇涛.lrc'
 },
 {
 name: '讲不出再见', url: 'https://github.com/lihan3238/music/raw/main/musics/讲不出再见-谭咏麟.mp3', artist: '谭咏麟', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/讲不出再见-谭咏麟.lrc'
