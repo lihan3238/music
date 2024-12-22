@@ -1,11 +1,14 @@
 # music
 my favorate musics
-2024.12.21 更新
+2024.12.22 更新
 
 ## 列表
 ```js
 {
 name: 'catallena', url: 'https://github.com/lihan3238/music/raw/main/musics/catallena-橘子焦糖.mp3', artist: '橘子焦糖', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/catallena-橘子焦糖.lrc'
+},
+{
+name: 'DontLookBack', url: 'https://github.com/lihan3238/music/raw/main/musics/DontLookBack-Kotomi,RyanElder.mp3', artist: 'Kotomi,RyanElder', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/DontLookBack-Kotomi,RyanElder.lrc'
 },
 {
 name: 'Escape(ThePinaColadaSong)', url: 'https://github.com/lihan3238/music/raw/main/musics/Escape(ThePinaColadaSong)-RupertHolmes.mp3', artist: 'RupertHolmes', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/Escape(ThePinaColadaSong)-RupertHolmes.lrc'
