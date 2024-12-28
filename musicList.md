@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2024.12.22 更新
+2024.12.28 更新
 
 ## 列表
 ```js
@@ -143,6 +143,9 @@ name: '月半小夜曲', url: 'https://github.com/lihan3238/music/raw/main/music
 name: '月半小夜曲', url: 'https://github.com/lihan3238/music/raw/main/musics/月半小夜曲-李克勤.m4a', artist: '李克勤', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/月半小夜曲-李克勤.lrc'
 },
 {
+name: '梦里水乡', url: 'https://github.com/lihan3238/music/raw/main/musics/梦里水乡-江珊.mp3', artist: '江珊', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/梦里水乡-江珊.lrc'
+},
+{
 name: '歌唱社会主义祖国', url: 'https://github.com/lihan3238/music/raw/main/musics/歌唱社会主义祖国-any.mp3', artist: 'any', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/歌唱社会主义祖国-any.lrc'
 },
 {
@@ -162,6 +165,9 @@ name: '漠河舞厅', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 },
 {
 name: '漫步人生路', url: 'https://github.com/lihan3238/music/raw/main/musics/漫步人生路-邓丽君.mp3', artist: '邓丽君', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/漫步人生路-邓丽君.lrc'
+},
+{
+name: '爱丫爱丫', url: 'https://github.com/lihan3238/music/raw/main/musics/爱丫爱丫-BY2.mp3', artist: 'BY2', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/爱丫爱丫-BY2.lrc'
 },
 {
 name: '爱人错过', url: 'https://github.com/lihan3238/music/raw/main/musics/爱人错过-告五人.mp3', artist: '告五人', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/爱人错过-告五人.lrc'
