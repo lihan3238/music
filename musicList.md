@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2025.01.10 更新
+2025.01.25 更新
 
 ## 列表
 ```js
@@ -57,6 +57,9 @@ name: '不可能错过你', url: 'https://github.com/lihan3238/music/raw/main/mu
 },
 {
 name: '不该', url: 'https://github.com/lihan3238/music/raw/main/musics/不该-周杰伦,张惠妹.mp3', artist: '周杰伦,张惠妹', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/不该-周杰伦,张惠妹.lrc'
+},
+{
+name: '不谓侠', url: 'https://github.com/lihan3238/music/raw/main/musics/不谓侠-萧忆情Alex.mp3', artist: '萧忆情Alex', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/不谓侠-萧忆情Alex.lrc'
 },
 {
 name: '偏偏喜欢你', url: 'https://github.com/lihan3238/music/raw/main/musics/偏偏喜欢你-陈百强.mp3', artist: '陈百强', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/偏偏喜欢你-陈百强.lrc'
