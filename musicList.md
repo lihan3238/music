@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2025.01.25 更新
+2025.02.10 更新
 
 ## 列表
 ```js
@@ -185,10 +185,16 @@ name: '爱人错过', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 name: '爱你', url: 'https://github.com/lihan3238/music/raw/main/musics/爱你-王心凌.mp3', artist: '王心凌', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/爱你-王心凌.lrc'
 },
 {
+name: '皇后大道东', url: 'https://github.com/lihan3238/music/raw/main/musics/皇后大道东-罗大佑.mp3', artist: '罗大佑', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/皇后大道东-罗大佑.lrc'
+},
+{
 name: '破茧', url: 'https://github.com/lihan3238/music/raw/main/musics/破茧-张韶涵.mp3', artist: '张韶涵', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/破茧-张韶涵.lrc'
 },
 {
 name: '秒针', url: 'https://github.com/lihan3238/music/raw/main/musics/秒针-阿梨粤.mp3', artist: '阿梨粤', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/秒针-阿梨粤.lrc'
+},
+{
+name: '童年', url: 'https://github.com/lihan3238/music/raw/main/musics/童年-罗大佑.mp3', artist: '罗大佑', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/童年-罗大佑.lrc'
 },
 {
 name: '素颜', url: 'https://github.com/lihan3238/music/raw/main/musics/素颜-许嵩,何曼婷.mp3', artist: '许嵩,何曼婷', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/素颜-许嵩,何曼婷.lrc'
