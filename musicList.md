@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2025.02.10 更新
+2025.02.23 更新
 
 ## 列表
 ```js
@@ -120,6 +120,9 @@ name: '富士山下', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 },
 {
 name: '带我去找夜生活', url: 'https://github.com/lihan3238/music/raw/main/musics/带我去找夜生活-告五人.mp3', artist: '告五人', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/带我去找夜生活-告五人.lrc'
+},
+{
+name: '弱水三千', url: 'https://github.com/lihan3238/music/raw/main/musics/弱水三千-石头&张晓棠.mp3', artist: '石头&张晓棠', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/弱水三千-石头&张晓棠.lrc'
 },
 {
 name: '忘记时间', url: 'https://github.com/lihan3238/music/raw/main/musics/忘记时间-胡歌.mp3', artist: '胡歌', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/忘记时间-胡歌.lrc'
