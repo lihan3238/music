@@ -1,11 +1,14 @@
 # music
 my favorate musics
-2025.02.23 更新
+2025.03.30 更新
 
 ## 列表
 ```js
 {
 name: 'catallena', url: 'https://github.com/lihan3238/music/raw/main/musics/catallena-橘子焦糖.mp3', artist: '橘子焦糖', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/catallena-橘子焦糖.lrc'
+},
+{
+name: 'CityOfStars', url: 'https://github.com/lihan3238/music/raw/main/musics/CityOfStars-RyanGosling,EmmaStone.mp3', artist: 'RyanGosling,EmmaStone', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/CityOfStars-RyanGosling,EmmaStone.lrc'
 },
 {
 name: 'DontLookBack', url: 'https://github.com/lihan3238/music/raw/main/musics/DontLookBack-Kotomi,RyanElder.mp3', artist: 'Kotomi,RyanElder', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/DontLookBack-Kotomi,RyanElder.lrc'
