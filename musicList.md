@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2025.03.30 更新
+2025.04.18 更新
 
 ## 列表
 ```js
@@ -219,6 +219,9 @@ name: '诉衷肠', url: 'https://github.com/lihan3238/music/raw/main/musics/诉�
 },
 {
 name: '跳舞街', url: 'https://github.com/lihan3238/music/raw/main/musics/跳舞街-陈慧娴.mp3', artist: '陈慧娴', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/跳舞街-陈慧娴.lrc'
+},
+{
+name: '铁血丹心', url: 'https://github.com/lihan3238/music/raw/main/musics/铁血丹心-罗文,甄妮.mp3', artist: '罗文,甄妮', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/铁血丹心-罗文,甄妮.lrc'
 },
 
 ```
