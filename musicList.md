@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2025.04.18 更新
+2025.05.05 更新
 
 ## 列表
 ```js
@@ -57,6 +57,9 @@ name: '万水千山总是情', url: 'https://github.com/lihan3238/music/raw/main
 },
 {
 name: '不可能错过你', url: 'https://github.com/lihan3238/music/raw/main/musics/不可能错过你-王力宏.mp3', artist: '王力宏', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/不可能错过你-王力宏.lrc'
+},
+{
+name: '不得不爱', url: 'https://github.com/lihan3238/music/raw/main/musics/不得不爱-潘玮柏&弦子.mp3', artist: '潘玮柏&弦子', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/不得不爱-潘玮柏&弦子.lrc'
 },
 {
 name: '不该', url: 'https://github.com/lihan3238/music/raw/main/musics/不该-周杰伦,张惠妹.mp3', artist: '周杰伦,张惠妹', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/不该-周杰伦,张惠妹.lrc'
@@ -131,6 +134,9 @@ name: '弱水三千', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 name: '忘记时间', url: 'https://github.com/lihan3238/music/raw/main/musics/忘记时间-胡歌.mp3', artist: '胡歌', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/忘记时间-胡歌.lrc'
 },
 {
+name: '恋人心', url: 'https://github.com/lihan3238/music/raw/main/musics/恋人心-魏新雨.mp3', artist: '魏新雨', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/恋人心-魏新雨.lrc'
+},
+{
 name: '恋爱循环', url: 'https://github.com/lihan3238/music/raw/main/musics/恋爱循环-花泽香菜.m4a', artist: '花泽香菜', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/恋爱循环-花泽香菜.lrc'
 },
 {
@@ -141,6 +147,9 @@ name: '敢爱敢做', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 },
 {
 name: '日不落', url: 'https://github.com/lihan3238/music/raw/main/musics/日不落-蔡依林.mp3', artist: '蔡依林', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/日不落-蔡依林.lrc'
+},
+{
+name: '春庭雪', url: 'https://github.com/lihan3238/music/raw/main/musics/春庭雪-DJ阿卓.mp3', artist: 'DJ阿卓', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/春庭雪-DJ阿卓.lrc'
 },
 {
 name: '晚风心里吹', url: 'https://github.com/lihan3238/music/raw/main/musics/晚风心里吹-李克勤.mp3', artist: '李克勤', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/晚风心里吹-李克勤.lrc'
