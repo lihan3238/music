@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2025.07.16 更新
+2025.07.30 更新
 
 ## 列表
 ```js
@@ -111,6 +111,9 @@ name: '吉他初恋', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 },
 {
 name: '同桌的你', url: 'https://github.com/lihan3238/music/raw/main/musics/同桌的你-老狼.mp3', artist: '老狼', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/同桌的你-老狼.lrc'
+},
+{
+name: '唐人恋曲', url: 'https://github.com/lihan3238/music/raw/main/musics/唐人恋曲-小唐人.mp3', artist: '小唐人', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/唐人恋曲-小唐人.lrc'
 },
 {
 name: '国际歌', url: 'https://github.com/lihan3238/music/raw/main/musics/国际歌-唐朝.mp3', artist: '唐朝', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/国际歌-唐朝.lrc'
