@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2025.07.30 更新
+2025.09.07 更新
 
 ## 列表
 ```js
@@ -27,6 +27,9 @@ name: 'Happy', url: 'https://github.com/lihan3238/music/raw/main/musics/Happy-Ph
 },
 {
 name: 'ITookAPillInlbiza(SeeBRemix)', url: 'https://github.com/lihan3238/music/raw/main/musics/ITookAPillInlbiza(SeeBRemix)-MikePosner,SeeB.mp3', artist: 'MikePosner,SeeB', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/ITookAPillInlbiza(SeeBRemix)-MikePosner,SeeB.lrc'
+},
+{
+name: 'KiLLKiSS', url: 'https://github.com/lihan3238/music/raw/main/musics/KiLLKiSS-AveMujica.mp3', artist: 'AveMujica', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/KiLLKiSS-AveMujica.lrc'
 },
 {
 name: 'LastChristmas', url: 'https://github.com/lihan3238/music/raw/main/musics/LastChristmas-TaylorSwift.mp3', artist: 'TaylorSwift', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/LastChristmas-TaylorSwift.lrc'
@@ -119,6 +122,9 @@ name: '唐人恋曲', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 name: '国际歌', url: 'https://github.com/lihan3238/music/raw/main/musics/国际歌-唐朝.mp3', artist: '唐朝', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/国际歌-唐朝.lrc'
 },
 {
+name: '壱雫空', url: 'https://github.com/lihan3238/music/raw/main/musics/壱雫空-MyGO!!!!!.mp3', artist: 'MyGO!!!!!', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/壱雫空-MyGO!!!!!.lrc'
+},
+{
 name: '处处吻', url: 'https://github.com/lihan3238/music/raw/main/musics/处处吻-杨千嬅.mp3', artist: '杨千嬅', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/处处吻-杨千嬅.lrc'
 },
 {
@@ -158,6 +164,12 @@ name: '日不落', url: 'https://github.com/lihan3238/music/raw/main/musics/日�
 name: '春庭雪', url: 'https://github.com/lihan3238/music/raw/main/musics/春庭雪-DJ阿卓.mp3', artist: 'DJ阿卓', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/春庭雪-DJ阿卓.lrc'
 },
 {
+name: '春日影(MyGO!!!!! ver.)', url: 'https://github.com/lihan3238/music/raw/main/musics/春日影(MyGO!!!!! ver.)-MyGO!!!!!.mp3', artist: 'MyGO!!!!!', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/春日影(MyGO!!!!! ver.)-MyGO!!!!!.lrc'
+},
+{
+name: '春日影', url: 'https://github.com/lihan3238/music/raw/main/musics/春日影-CRYCHIC.mp3', artist: 'CRYCHIC', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/春日影-CRYCHIC.lrc'
+},
+{
 name: '晚风心里吹', url: 'https://github.com/lihan3238/music/raw/main/musics/晚风心里吹-李克勤.mp3', artist: '李克勤', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/晚风心里吹-李克勤.lrc'
 },
 {
@@ -185,7 +197,7 @@ name: '沉默是金', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 name: '沧海一声笑', url: 'https://github.com/lihan3238/music/raw/main/musics/沧海一声笑-许冠杰.mp3', artist: '许冠杰', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/沧海一声笑-许冠杰.lrc'
 },
 {
-name: '海阔天空', url: 'https://github.com/lihan3238/music/raw/main/musics/海阔天空-beyond.mp3', artist: 'beyond', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
+name: '海阔天空', url: 'https://github.com/lihan3238/music/raw/main/musics/海阔天空-Beyond.mp3', artist: 'Beyond', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/海阔天空-Beyond.lrc'
 },
 {
 name: '满分情人', url: 'https://github.com/lihan3238/music/raw/main/musics/满分情人-刘小慧.mp3', artist: '刘小慧', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/满分情人-刘小慧.lrc'
