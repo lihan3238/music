@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2025.09.07 更新
+2025.10.09 更新
 
 ## 列表
 ```js
@@ -150,6 +150,9 @@ name: '恋人心', url: 'https://github.com/lihan3238/music/raw/main/musics/恋�
 },
 {
 name: '恋爱循环', url: 'https://github.com/lihan3238/music/raw/main/musics/恋爱循环-花泽香菜.m4a', artist: '花泽香菜', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/恋爱循环-花泽香菜.lrc'
+},
+{
+name: '我的悲伤是水做的', url: 'https://github.com/lihan3238/music/raw/main/musics/我的悲伤是水做的-洛天依.mp3', artist: '洛天依', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/我的悲伤是水做的-洛天依.lrc'
 },
 {
 name: '改变自己', url: 'https://github.com/lihan3238/music/raw/main/musics/改变自己-王力宏.mp3', artist: '王力宏', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/改变自己-王力宏.lrc'
