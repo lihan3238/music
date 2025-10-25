@@ -1,11 +1,14 @@
 # music
 my favorate musics
-2025.10.09 更新
+2025.10.26 更新
 
 ## 列表
 ```js
 {
 name: 'catallena', url: 'https://github.com/lihan3238/music/raw/main/musics/catallena-橘子焦糖.mp3', artist: '橘子焦糖', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/catallena-橘子焦糖.lrc'
+},
+{
+name: 'CherryBomb', url: 'https://github.com/lihan3238/music/raw/main/musics/CherryBomb-TheRunaways.mp3', artist: 'TheRunaways', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/CherryBomb-TheRunaways.lrc'
 },
 {
 name: 'CityOfStars', url: 'https://github.com/lihan3238/music/raw/main/musics/CityOfStars-RyanGosling,EmmaStone.mp3', artist: 'RyanGosling,EmmaStone', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/CityOfStars-RyanGosling,EmmaStone.lrc'
@@ -200,7 +203,7 @@ name: '沉默是金', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 name: '沧海一声笑', url: 'https://github.com/lihan3238/music/raw/main/musics/沧海一声笑-许冠杰.mp3', artist: '许冠杰', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/沧海一声笑-许冠杰.lrc'
 },
 {
-name: '海阔天空', url: 'https://github.com/lihan3238/music/raw/main/musics/海阔天空-Beyond.mp3', artist: 'Beyond', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/海阔天空-Beyond.lrc'
+name: '海阔天空', url: 'https://github.com/lihan3238/music/raw/main/musics/海阔天空-beyond.mp3', artist: 'beyond', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png'
 },
 {
 name: '满分情人', url: 'https://github.com/lihan3238/music/raw/main/musics/满分情人-刘小慧.mp3', artist: '刘小慧', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/满分情人-刘小慧.lrc'
