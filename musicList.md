@@ -1,6 +1,6 @@
 # music
 my favorate musics
-2025.10.26 更新
+2025.11.30 更新
 
 ## 列表
 ```js
@@ -167,7 +167,7 @@ name: '敢爱敢做', url: 'https://github.com/lihan3238/music/raw/main/musics/�
 name: '日不落', url: 'https://github.com/lihan3238/music/raw/main/musics/日不落-蔡依林.mp3', artist: '蔡依林', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/日不落-蔡依林.lrc'
 },
 {
-name: '春庭雪', url: 'https://github.com/lihan3238/music/raw/main/musics/春庭雪-DJ阿卓.mp3', artist: 'DJ阿卓', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/春庭雪-DJ阿卓.lrc'
+name: '春庭雪', url: 'https://github.com/lihan3238/music/raw/main/musics/春庭雪-邓寓君(等什么君).mp3', artist: '邓寓君(等什么君)', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/春庭雪-邓寓君(等什么君).lrc'
 },
 {
 name: '春日影(MyGO!!!!! ver.)', url: 'https://github.com/lihan3238/music/raw/main/musics/春日影(MyGO!!!!! ver.)-MyGO!!!!!.mp3', artist: 'MyGO!!!!!', cover: 'https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png', lrc: 'https://raw.githubusercontent.com/lihan3238/music/main/musics/春日影(MyGO!!!!! ver.)-MyGO!!!!!.lrc'
