@@ -42,26 +42,26 @@ for file_name in file_names:
     # 检查是否需要生成LRC
     if not os.path.exists(lrc_file_path):
         txt_file_path = os.path.join(lrc_txt_path, file_base_name + ".txt")
-        if os.path.exists(txt_file_path):
-            print(f"Generating LRC for {file_name}...")
-            try:
-                # 调用 lrcgen
-                # 假设 lrcgen 命令格式: lrcgen <audio_file> <output_lrc> --lyrics-file <text_file>
-                # 使用绝对路径以防万一
-                abs_audio = os.path.abspath(file_path)
-                abs_lrc = os.path.abspath(lrc_file_path)
+        print(f"Generating LRC for {file_name}...")
+        try:
+            # 调用 lrcgen
+            # 有歌词文本则使用 --lyrics-file，否则直接生成
+            # 使用绝对路径以防万一
+            abs_audio = os.path.abspath(file_path)
+            abs_lrc = os.path.abspath(lrc_file_path)
+            
+            if os.path.exists(txt_file_path):
                 abs_txt = os.path.abspath(txt_file_path)
-                
                 cmd = ["lrcgen", abs_audio, abs_lrc, "--lyrics-file", abs_txt, "--model", "large-v3"]
-                subprocess.run(cmd, check=True)
-                print(f"Successfully generated {lrc_file_name}")
-            except subprocess.CalledProcessError as e:
-                print(f"Failed to generate LRC for {file_name}: {e}")
-            except FileNotFoundError:
-                print("Error: lrcgen command not found. Please ensure lrcgen is installed and in PATH.")
-        else:
-            # print(f"Skipping generation for {file_name}: No corresponding txt file found in {lrc_txt_path}")
-            pass
+            else:
+                cmd = ["lrcgen", abs_audio, abs_lrc, "--model", "large-v3"]
+
+            subprocess.run(cmd, check=True)
+            print(f"Successfully generated {lrc_file_name}")
+        except subprocess.CalledProcessError as e:
+            print(f"Failed to generate LRC for {file_name}: {e}")
+        except FileNotFoundError:
+            print("Error: lrcgen command not found. Please ensure lrcgen is installed and in PATH.")
 
     # 重新检查lrc是否存在（可能刚生成）
     has_lrc = os.path.exists(lrc_file_path)

@@ -189,13 +189,6 @@
         "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/兰亭序-周杰伦.lrc"
     },
     {
-        "name": "关山酒(DJ版)",
-        "url": "https://github.com/lihan3238/music/raw/main/musics/关山酒(DJ版) - 邓寓君(等什么君).mp3",
-        "artist": "邓寓君(等什么君)",
-        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
-        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/关山酒(DJ版) - 邓寓君(等什么君).lrc"
-    },
-    {
         "name": "再见",
         "url": "https://github.com/lihan3238/music/raw/main/musics/再见-张震岳.mp3",
         "artist": "张震岳",
@@ -318,7 +311,8 @@
         "name": "富士山下",
         "url": "https://github.com/lihan3238/music/raw/main/musics/富士山下-陈奕迅.m4a",
         "artist": "陈奕迅",
-        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png"
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/富士山下-陈奕迅.lrc"
     },
     {
         "name": "带我去找夜生活",
@@ -496,6 +490,20 @@
         "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/漫步人生路-邓丽君.lrc"
     },
     {
+        "name": "燕无歇",
+        "url": "https://github.com/lihan3238/music/raw/main/musics/燕无歇-原味小狗堡.m4a",
+        "artist": "原味小狗堡",
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/燕无歇-原味小狗堡.lrc"
+    },
+    {
+        "name": "燕无歇",
+        "url": "https://github.com/lihan3238/music/raw/main/musics/燕无歇-蒋雪儿.mp3",
+        "artist": "蒋雪儿",
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/燕无歇-蒋雪儿.lrc"
+    },
+    {
         "name": "爱丫爱丫",
         "url": "https://github.com/lihan3238/music/raw/main/musics/爱丫爱丫-BY2.mp3",
         "artist": "BY2",
@@ -583,7 +591,8 @@
         "name": "诉衷肠",
         "url": "https://github.com/lihan3238/music/raw/main/musics/诉衷肠-多亮.mp3",
         "artist": "多亮",
-        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png"
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/诉衷肠-多亮.lrc"
     },
     {
         "name": "跳舞街",
