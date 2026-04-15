@@ -48,6 +48,13 @@ file_names = [
 ]
 file_names.sort(key=lambda name: name.lower())
 
+# 构建歌词文件映射（key 使用小写，兼容 Linux 大小写敏感文件系统）
+lrc_name_map = {
+    file_name.lower(): file_name
+    for file_name in file_names
+    if os.path.splitext(file_name)[1].lower() == ".lrc"
+}
+
 music_list = []
 missing_lrc_files = []
 
@@ -62,8 +69,13 @@ for file_name in file_names:
     lrc_file_name = file_base_name + ".lrc"
     lrc_file_path = os.path.join(directory_path, lrc_file_name)
 
+    if os.path.exists(lrc_file_path):
+        resolved_lrc_file_name = lrc_file_name
+    else:
+        resolved_lrc_file_name = lrc_name_map.get(lrc_file_name.lower())
+
     # 检查是否需要生成LRC（CI默认跳过）
-    if not os.path.exists(lrc_file_path) and not skip_lrc_generation:
+    if not resolved_lrc_file_name and not skip_lrc_generation:
         txt_file_path = os.path.join(lrc_txt_path, file_base_name + ".txt")
         print(f"Generating LRC for {file_name}...")
         try:
@@ -81,20 +93,21 @@ for file_name in file_names:
 
             subprocess.run(cmd, check=True)
             print(f"Successfully generated {lrc_file_name}")
+            resolved_lrc_file_name = lrc_file_name
+            lrc_name_map[lrc_file_name.lower()] = lrc_file_name
         except subprocess.CalledProcessError as e:
             print(f"Failed to generate LRC for {file_name}: {e}")
         except FileNotFoundError:
             print("Error: lrcgen command not found. Please ensure lrcgen is installed and in PATH.")
 
-    # 重新检查lrc是否存在（可能刚生成）
-    has_lrc = os.path.exists(lrc_file_path)
+    has_lrc = bool(resolved_lrc_file_name)
     
     if not has_lrc:
         print(f"Warning: missing matching LRC for {file_name} -> expected {lrc_file_name}")
         missing_lrc_files.append(file_name)
 
     # 构建信息
-    lrc_url = base_lrc_url + lrc_file_name if has_lrc else ""
+    lrc_url = base_lrc_url + resolved_lrc_file_name if has_lrc else ""
     
     name_part = file_base_name
     if "-" in name_part:
