@@ -1,0 +1,84 @@
+name: Music List Sync
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "musics/**"
+      - "lrc/**"
+      - "test.py"
+      - ".github/workflows/music-sync.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: music-list-sync
+  cancel-in-progress: true
+
+jobs:
+  generate-and-dispatch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate musicList.json
+        env:
+          CI: "true"
+          SKIP_LRC_GENERATION: "true"
+          REQUIRE_LRC: "true"
+          DISABLE_BAK: "true"
+        run: python test.py
+
+      - name: Check diff
+        id: diff
+        shell: bash
+        run: |
+          if git diff --quiet -- musicList.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push musicList.json
+        if: steps.diff.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add musicList.json
+          git commit -m "chore: auto update musicList.json"
+          git push
+
+      - name: Get current source sha
+        if: steps.diff.outputs.changed == 'true'
+        id: source_sha
+        shell: bash
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Dispatch to blog repository
+        if: steps.diff.outputs.changed == 'true' && secrets.BLOG_REPO_DISPATCH_TOKEN != ''
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.BLOG_REPO_DISPATCH_TOKEN }}
+          repository: lihan3238/lihan3238.github.io
+          event-type: music_list_updated
+          client-payload: >-
+            {
+              "source_repo": "${{ github.repository }}",
+              "source_sha": "${{ steps.source_sha.outputs.sha }}",
+              "json_raw_url": "https://raw.githubusercontent.com/lihan3238/music/main/musicList.json"
+            }
+
+      - name: Skip dispatch when token missing
+        if: steps.diff.outputs.changed == 'true' && secrets.BLOG_REPO_DISPATCH_TOKEN == ''
+        run: echo "BLOG_REPO_DISPATCH_TOKEN is not set, skip repository_dispatch."
