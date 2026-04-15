@@ -16,13 +16,15 @@ concurrency:
 jobs:
   sync-music-list:
     runs-on: ubuntu-latest
+    env:
+      AUTOMATION_TOKEN: ${{ secrets.BLOG_REPO_AUTOMATION_TOKEN }}
 
     steps:
       - name: Checkout blog repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
@@ -41,8 +43,10 @@ jobs:
         run: python scripts/update_aplayer_music.py
 
       - name: Create pull request
+        id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ env.AUTOMATION_TOKEN }}
           branch: chore/sync-music-list
           base: main
           delete-branch: true
@@ -56,3 +60,15 @@ jobs:
           commit-message: "chore: sync music list"
           add-paths: |
             layouts/partials/music.html
+
+      - name: Auto approve pull request
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ env.AUTOMATION_TOKEN }}
+        run: gh pr review "${{ steps.cpr.outputs.pull-request-number }}" --approve --repo "${{ github.repository }}"
+
+      - name: Enable auto merge
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ env.AUTOMATION_TOKEN }}
+        run: gh pr merge "${{ steps.cpr.outputs.pull-request-number }}" --auto --squash --repo "${{ github.repository }}"

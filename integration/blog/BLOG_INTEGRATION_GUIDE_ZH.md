@@ -87,19 +87,32 @@ var ap = new APlayer({
 - `repository_dispatch`（type: `music_list_updated`）
 - `workflow_dispatch`（手动补跑）
 
-博客仓库不需要额外 PAT 才能创建 PR，因为 workflow 使用仓库默认 `GITHUB_TOKEN`，并已声明：
+博客仓库的自动审批与自动合并需要一个专用 PAT，建议在博客仓库里新增 Secret：
+
+- 名称：`BLOG_REPO_AUTOMATION_TOKEN`
+- 权限：对博客仓库至少具备 `contents: write` 和 `pull-requests: write`
+
+如果你的仓库设置允许，`GITHUB_TOKEN` 也可能足够创建 PR，但自动审批和 `gh pr merge --auto` 在实践中更稳妥的方式是使用专用 PAT。
+
+博客 workflow 已声明：
 
 - `contents: write`
 - `pull-requests: write`
+
+另外，博客仓库需要在 Settings 中确认：
+
+- Actions -> General -> Workflow permissions 选择 `Read and write permissions`
+- 勾选 `Allow GitHub Actions to create and approve pull requests`
+- Settings -> General -> Pull Requests 勾选 `Allow auto-merge`
 
 ## 验证流程（建议按顺序）
 
 1. 在博客仓库先手动运行一次 `Sync Music Player List`（Actions 页）
 2. 确认能成功创建 PR
 3. 检查 PR diff：仅 `layouts/partials/music.html` 的音乐数组变更
-4. 合并 PR，确认页面播放器工作正常
+4. 确认 PR 自动进入 approve 状态并自动合并
 5. 再去 `music` 仓库提交一首新歌 + 同名 lrc
-6. 观察是否自动触发博客仓库 PR
+6. 观察是否自动触发博客仓库 PR 并自动合并
 
 ## 常见问题
 
@@ -120,7 +133,17 @@ var ap = new APlayer({
 
 若未配置，`music` workflow 会跳过 dispatch。
 
-### 3) PR 没创建
+### 3) PR 创建了但没有自动合并
+
+检查博客仓库是否已配置：
+
+- `BLOG_REPO_AUTOMATION_TOKEN`
+- `Allow auto-merge`
+- `Allow GitHub Actions to create and approve pull requests`
+
+如果仓库有 branch protection 要求额外人工审批，auto-merge 仍然会停住，这是预期行为。
+
+### 4) PR 没创建
 
 检查博客 workflow 日志是否显示：
 

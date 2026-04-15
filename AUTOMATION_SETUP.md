@@ -43,6 +43,27 @@ In the blog repository (`lihan3238/lihan3238.github.io`):
 2. Copy `integration/blog/update_aplayer_music.py` to:
    - `scripts/update_aplayer_music.py`
 
+### 3) Configure blog repository automation secret
+
+In the blog repository (`lihan3238/lihan3238.github.io`), create this secret:
+
+- Name: `BLOG_REPO_AUTOMATION_TOKEN`
+- Value: a PAT that can create, approve, and merge PRs in the blog repository
+
+Recommended PAT permissions (fine-grained):
+- Repository access: `lihan3238/lihan3238.github.io`
+- Permissions:
+  - Contents: Read and write
+  - Pull requests: Read and write
+
+### 4) Enable repository settings in the blog repo
+
+Make sure the blog repository allows the workflow to do its job:
+
+- Settings -> Actions -> General -> Workflow permissions: `Read and write permissions`
+- Settings -> Actions -> General -> `Allow GitHub Actions to create and approve pull requests`
+- Settings -> General -> Pull Requests -> `Allow auto-merge`
+
 ### 3) Add markers in blog partial
 
 In `layouts/partials/music.html`, wrap your `music: [...]` block with markers:
