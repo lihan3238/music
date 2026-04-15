@@ -21,6 +21,8 @@ concurrency:
 jobs:
   generate-and-dispatch:
     runs-on: ubuntu-latest
+    env:
+      DISPATCH_TOKEN: ${{ secrets.BLOG_REPO_DISPATCH_TOKEN }}
 
     steps:
       - name: Checkout
@@ -66,10 +68,10 @@ jobs:
         run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Dispatch to blog repository
-        if: steps.diff.outputs.changed == 'true' && secrets.BLOG_REPO_DISPATCH_TOKEN != ''
+        if: steps.diff.outputs.changed == 'true' && env.DISPATCH_TOKEN != ''
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: ${{ secrets.BLOG_REPO_DISPATCH_TOKEN }}
+          token: ${{ env.DISPATCH_TOKEN }}
           repository: lihan3238/lihan3238.github.io
           event-type: music_list_updated
           client-payload: >-
@@ -80,5 +82,5 @@ jobs:
             }
 
       - name: Skip dispatch when token missing
-        if: steps.diff.outputs.changed == 'true' && secrets.BLOG_REPO_DISPATCH_TOKEN == ''
+        if: steps.diff.outputs.changed == 'true' && env.DISPATCH_TOKEN == ''
         run: echo "BLOG_REPO_DISPATCH_TOKEN is not set, skip repository_dispatch."
