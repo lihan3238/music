@@ -4,6 +4,8 @@ import datetime
 import shutil
 import subprocess
 
+from lrc_compat import normalize_lrc_file
+
 
 def env_true(name: str, default: bool = False) -> bool:
     value = os.getenv(name)
@@ -57,6 +59,7 @@ lrc_name_map = {
 
 music_list = []
 missing_lrc_files = []
+normalized_lrc_files = []
 
 # 遍历文件名
 for file_name in file_names:
@@ -105,6 +108,11 @@ for file_name in file_names:
     if not has_lrc:
         print(f"Warning: missing matching LRC for {file_name} -> expected {lrc_file_name}")
         missing_lrc_files.append(file_name)
+    else:
+        resolved_lrc_file_path = os.path.join(directory_path, resolved_lrc_file_name)
+        if normalize_lrc_file(resolved_lrc_file_path):
+            print(f"Normalized APlayer-compatible LRC timestamps: {resolved_lrc_file_name}")
+            normalized_lrc_files.append(resolved_lrc_file_name)
 
     # 构建信息
     lrc_url = base_lrc_url + resolved_lrc_file_name if has_lrc else ""
@@ -137,6 +145,11 @@ if require_lrc and missing_lrc_files:
     for file_name in missing_lrc_files:
         print(f"- {file_name}")
     raise SystemExit(1)
+
+if normalized_lrc_files:
+    print("\nNormalized LRC files:")
+    for file_name in normalized_lrc_files:
+        print(f"- {file_name}")
 
 
 # 写入 JSON 文件

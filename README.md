@@ -11,6 +11,10 @@
 
 - 音频：`mp3`、`m4a`、`flac`、`wav`、`ogg`、`aac`
 - 歌词：同名 `.lrc`
+- LRC 时间戳：生成脚本会自动规范化为 APlayer 兼容格式
+  `[mm:ss]`、`[mm:ss.xx]` 或 `[mm:ss.xxx]`。例如
+  `[02:54.4]` 会写回为 `[02:54.400]`，`[01:15.979996]`
+  会写回为 `[01:15.980]`。
 
 ## 目录结构
 
@@ -48,8 +52,9 @@ python test.py
 默认行为：
 
 1. 扫描 `musics/` 音频文件，生成 `musicList.json`。
-2. 若缺失 `.lrc`，会尝试调用 `lrcgen` 自动生成（本地模式）。
-3. 生成 JSON 备份到 `Baks/`。
+2. 规范化已有或新生成 `.lrc` 的时间戳，避免 APlayer 跳过歌词行。
+3. 若缺失 `.lrc`，会尝试调用 `lrcgen` 自动生成（本地模式）。
+4. 生成 JSON 备份到 `Baks/`。
 
 ### 可选环境变量
 
@@ -82,7 +87,7 @@ workflow 文件：`.github/workflows/music-sync.yml`
 执行流程：
 
 1. 使用 CI 参数运行 `test.py`。
-2. 若 `musicList.json` 有变化，自动提交并推送。
+2. 若 `musicList.json` 或 `musics/` 下规范化后的歌词有变化，自动提交并推送。
 3. 若配置了 `BLOG_REPO_DISPATCH_TOKEN`，自动向博客仓库发送 `repository_dispatch`（事件：`music_list_updated`）。
 
 ## 与博客仓库联动

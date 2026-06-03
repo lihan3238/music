@@ -45,20 +45,20 @@ jobs:
         id: diff
         shell: bash
         run: |
-          if git diff --quiet -- musicList.json; then
+          if git diff --quiet -- musicList.json musics; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit and push musicList.json
+      - name: Commit and push generated music data
         if: steps.diff.outputs.changed == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add musicList.json
-          git commit -m "chore: auto update musicList.json"
+          git add musicList.json musics
+          git commit -m "chore: auto update music data"
           git push
 
       - name: Get current source sha
