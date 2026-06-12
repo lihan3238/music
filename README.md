@@ -5,7 +5,7 @@
 当前已支持两种工作模式：
 
 1. 本地脚本模式：手动运行 `test.py`。
-2. GitHub Actions 模式：上传音乐后自动更新 `musicList.json`，并可触发博客仓库同步。
+2. GitHub Actions 模式：上传音乐后自动更新 `musicList.json`。
 
 ## 支持格式
 
@@ -88,16 +88,14 @@ workflow 文件：`.github/workflows/music-sync.yml`
 
 1. 使用 CI 参数运行 `test.py`。
 2. 若 `musicList.json` 或 `musics/` 下规范化后的歌词有变化，自动提交并推送。
-3. 若配置了 `BLOG_REPO_DISPATCH_TOKEN`，自动向博客仓库发送 `repository_dispatch`（事件：`music_list_updated`）。
 
 ## 与博客仓库联动
 
-本仓库已提供博客侧模板文件：
-
-- `integration/blog/blog-sync-workflow.yml`
-- `integration/blog/update_aplayer_music.py`
-
-详细改造步骤见：`AUTOMATION_SETUP.md` 和 `integration/blog/BLOG_INTEGRATION_GUIDE_ZH.md`。
+无需任何同步 workflow：博客播放器在页面运行时直接 fetch 本仓库的
+`musicList.json`（raw URL 开放 CORS，CDN 缓存约 5 分钟），所以新歌入库后
+几分钟内自动出现在博客上，博客侧零构建、零提交。博客侧实现见
+`lihan3238.github.io` 仓库的 `layouts/_partials/music.html`，形状与下方
+示例一致。
 
 ## APlayer 基础配置示例（直接读取 JSON）
 
@@ -120,7 +118,7 @@ workflow 文件：`.github/workflows/music-sync.yml`
                 listFolded: true,
                 listMaxHeight: '500px',
                 lrcType: 3,
-                music: data
+                audio: data
             });
         });
 </script>
