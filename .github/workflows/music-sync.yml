@@ -31,33 +31,40 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate musicList.json
+      - name: Generate and push music data
         env:
           CI: "true"
           SKIP_LRC_GENERATION: "true"
           REQUIRE_LRC: "true"
           DISABLE_BAK: "true"
-        run: python test.py
-
-      - name: Check diff
-        id: diff
-        shell: bash
-        run: |
-          if git diff --quiet -- musicList.json musics; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Commit and push generated music data
-        if: steps.diff.outputs.changed == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add musicList.json musics
-          git commit -m "chore: auto update music data"
-          git push
+
+          for attempt in 1 2 3; do
+            # Reset only this disposable runner checkout. Regenerate from the
+            # latest branch so concurrent uploads and deletions are reflected.
+            git fetch --no-tags origin "$GITHUB_REF"
+            git reset --hard FETCH_HEAD
+            python test.py
+
+            git add -- musicList.json musics
+            if git diff --cached --quiet; then
+              echo "Music data is already up to date."
+              exit 0
+            fi
+
+            git commit -m "chore: auto update music data"
+            if git push origin "HEAD:$GITHUB_REF"; then
+              exit 0
+            fi
+
+            echo "Push attempt $attempt failed."
+          done
+
+          echo "::error::Could not push music data after 3 attempts."
+          exit 1
 
       # No blog dispatch: the blog player fetches musicList.json directly at
       # page runtime, so pushing the regenerated JSON is the whole job.

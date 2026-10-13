@@ -86,8 +86,9 @@ workflow 文件：`.github/workflows/music-sync.yml`
 
 执行流程：
 
-1. 使用 CI 参数运行 `test.py`。
+1. 获取当前分支的最新提交，使用 CI 参数运行 `test.py`。
 2. 若 `musicList.json` 或 `musics/` 下规范化后的歌词有变化，自动提交并推送。
+3. 推送失败时重新获取最新提交并生成，最多尝试 3 次；无变化则直接成功结束。
 
 ## 与博客仓库联动
 
