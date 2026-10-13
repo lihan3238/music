@@ -168,6 +168,13 @@
         "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/不谓侠-萧忆情Alex.lrc"
     },
     {
+        "name": "侏儒之歌",
+        "url": "https://github.com/lihan3238/music/raw/main/musics/侏儒之歌-罗大佑.mp3",
+        "artist": "罗大佑",
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/侏儒之歌-罗大佑.lrc"
+    },
+    {
         "name": "偏偏喜欢你",
         "url": "https://github.com/lihan3238/music/raw/main/musics/偏偏喜欢你-陈百强.mp3",
         "artist": "陈百强",
@@ -182,18 +189,18 @@
         "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/偏爱-张芸京.lrc"
     },
     {
+        "name": "光阴的故事",
+        "url": "https://github.com/lihan3238/music/raw/main/musics/光阴的故事-罗大佑.mp3",
+        "artist": "罗大佑",
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/光阴的故事-罗大佑.lrc"
+    },
+    {
         "name": "兰亭序",
         "url": "https://github.com/lihan3238/music/raw/main/musics/兰亭序-周杰伦.flac",
         "artist": "周杰伦",
         "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
         "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/兰亭序-周杰伦.lrc"
-    },
-    {
-        "name": "关山酒(DJ版)",
-        "url": "https://github.com/lihan3238/music/raw/main/musics/关山酒(DJ版) - 邓寓君(等什么君).mp3",
-        "artist": "邓寓君(等什么君)",
-        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
-        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/关山酒(DJ版) - 邓寓君(等什么君).lrc"
     },
     {
         "name": "再见",
@@ -259,6 +266,13 @@
         "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/可不可以-张紫豪.lrc"
     },
     {
+        "name": "台北红玫瑰",
+        "url": "https://github.com/lihan3238/music/raw/main/musics/台北红玫瑰-罗大佑.mp3",
+        "artist": "罗大佑",
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/台北红玫瑰-罗大佑.lrc"
+    },
+    {
         "name": "吉他初恋",
         "url": "https://github.com/lihan3238/music/raw/main/musics/吉他初恋-刘大壮.mp3",
         "artist": "刘大壮",
@@ -318,7 +332,8 @@
         "name": "富士山下",
         "url": "https://github.com/lihan3238/music/raw/main/musics/富士山下-陈奕迅.m4a",
         "artist": "陈奕迅",
-        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png"
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/富士山下-陈奕迅.lrc"
     },
     {
         "name": "带我去找夜生活",
@@ -496,11 +511,39 @@
         "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/漫步人生路-邓丽君.lrc"
     },
     {
+        "name": "火车",
+        "url": "https://github.com/lihan3238/music/raw/main/musics/火车-罗大佑.mp3",
+        "artist": "罗大佑",
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/火车-罗大佑.lrc"
+    },
+    {
+        "name": "燕无歇",
+        "url": "https://github.com/lihan3238/music/raw/main/musics/燕无歇-原味小狗堡.m4a",
+        "artist": "原味小狗堡",
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/燕无歇-原味小狗堡.lrc"
+    },
+    {
+        "name": "燕无歇",
+        "url": "https://github.com/lihan3238/music/raw/main/musics/燕无歇-蒋雪儿.mp3",
+        "artist": "蒋雪儿",
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/燕无歇-蒋雪儿.lrc"
+    },
+    {
         "name": "爱丫爱丫",
         "url": "https://github.com/lihan3238/music/raw/main/musics/爱丫爱丫-BY2.mp3",
         "artist": "BY2",
         "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
         "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/爱丫爱丫-BY2.lrc"
+    },
+    {
+        "name": "爱人同志(Live)",
+        "url": "https://github.com/lihan3238/music/raw/main/musics/爱人同志(Live)-罗大佑.mp3",
+        "artist": "罗大佑",
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/爱人同志(Live)-罗大佑.lrc"
     },
     {
         "name": "爱人错过",
@@ -583,7 +626,8 @@
         "name": "诉衷肠",
         "url": "https://github.com/lihan3238/music/raw/main/musics/诉衷肠-多亮.mp3",
         "artist": "多亮",
-        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png"
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/诉衷肠-多亮.lrc"
     },
     {
         "name": "跳舞街",
@@ -598,5 +642,12 @@
         "artist": "罗文,甄妮",
         "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
         "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/铁血丹心-罗文,甄妮.lrc"
+    },
+    {
+        "name": "青春舞曲2000",
+        "url": "https://github.com/lihan3238/music/raw/main/musics/青春舞曲2000-罗大佑.mp3",
+        "artist": "罗大佑",
+        "cover": "https://user-images.githubusercontent.com/140466644/266218167-0a08d24b-2f75-4a6b-9253-227612dffa98.png",
+        "lrc": "https://raw.githubusercontent.com/lihan3238/music/main/musics/青春舞曲2000-罗大佑.lrc"
     }
 ]
